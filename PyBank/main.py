@@ -57,7 +57,7 @@ output = ("Financial Analysis"
     )
 print(output)
 
-financial_analysis = os.path.join("..", "PyBank", "analysis", "financial_analysis.txt")
+financial_analysis = os.path.join("..", "PyBank", "Analysis", "financial_analysis.txt")
 with open(financial_analysis, "w") as fa:
     fa.write(output)
 
